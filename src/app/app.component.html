@@ -1,0 +1,11 @@
+<!--The whole content below can be removed with the new code.-->
+
+<div id="main-content">
+   <app-navbar (childEvent) = "mainPage = $event"></app-navbar>
+   <app-profile *ngIf = "mainPage === 'Profile' " ></app-profile>
+   <app-education *ngIf = "mainPage === 'Education' "></app-education>
+   <app-experience *ngIf = "mainPage === 'Experience' "></app-experience>
+   <app-projects *ngIf = "mainPage === 'Projects' "></app-projects>
+   <app-footer></app-footer>
+</div>
+

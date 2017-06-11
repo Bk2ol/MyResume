@@ -1,0 +1,37 @@
+.education-feature {
+  width: 100%;
+  float: left;
+  margin : 2em;
+}
+.education-feature .education-icon {
+  text-align: left;
+  float: left;
+  width: 10%;
+  display: block;
+  margin-top: 5px;
+}
+.education-feature .education-icon i {
+  color: #17e7a4;
+  font-size: 40px;
+}
+.education-feature .education-text {
+  float: right;
+  width: 82%;
+}
+.education-feature .education-text h2{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.education-feature .education-text h2 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.education-feature .education-text h5{
+    margin : 0;
+    position: relative;
+}
+

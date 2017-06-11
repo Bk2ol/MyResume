@@ -1,0 +1,22 @@
+<div class="content-inner text-center animated  fadeInUp">
+    <div class="col-md-12">
+      <figure>
+        <img src="./assets/profile_img.png" alt="Free HTML5 Wesbite Template by FreeHTML5.co">
+      </figure>
+      <h1>Kaite Tang</h1>
+      <p class = "text-center"><span>Objective: Seeking a position as a Software Developer </span> </p>
+    </div>
+      <div class="row">
+        <h3>Skills</h3>
+        <ul>
+          <li *ngFor = "let skill of skills">
+            <p><span>{{skill.type}}</span>{{skill.detail}}</p>
+          </li>
+        </ul>
+      </div>
+      <h3>Professional Summary</h3>
+        <p> • Junior Web developer able to build a Web system from back end to front end.
+        <br>• Able to work well independently or as part of professional computer program development team.
+        <br>• Basic experience about full life cycle software development, database design, test & debug.</p>
+</div>
+

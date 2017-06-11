@@ -1,0 +1,5 @@
+<div class="tab-wrap">
+			<ul class="tab-menu">
+        <li   *ngFor = "let item of items" [ngClass]="{'active' : item.name === mainPage}" (click)="changeContent(item)"><a href="#" (click)= "preventDefault()"><span class = "icon {{item.icon}}"></span><span class = "menu-text">{{item.name}}</span></a></li>
+      </ul>
+</div>

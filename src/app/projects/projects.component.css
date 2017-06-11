@@ -1,0 +1,55 @@
+.projects-feature {
+  width: 100%;
+  float: left;
+  margin-bottom : 40px;
+  
+}
+.projects-feature .projects-icon {
+  text-align: left;
+  float: left;
+  width: 10%;
+  display: block;
+  margin-top: 5px;
+}
+.projects-feature .projects-icon i {
+  color: #17e7a4;
+  font-size: 40px;
+}
+.projects-feature .projects-text {
+  float: right;
+  width: 82%;
+}
+.projects-feature .projects-text h2{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.projects-feature .projects-text h2 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.projects-feature .projects-text h5{
+    margin : 0;
+    position: relative;
+    text-align: left;
+}
+.projects-feature .projects-text p{
+    margin : 0;
+    position: relative;
+    text-align: left;
+    font-size: 15px;
+}
+.projects-feature .projects-text a{
+    color: white;
+    position: relative;
+    text-align: left;
+}
+.projects-feature .projects-text i{
+    color: #17e7a4;
+    text-align: left;
+}
+
