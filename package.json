@@ -42,6 +42,7 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
+    "preinstall": "npm install -g @angular/cli",
     "postinstall": "ng build --target=production -e ${NODE_ENV:-production} --aot",
     "build": "ng build",
     "test": "ng test",
