@@ -24,7 +24,7 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "preinstall": "npm install -g angular-cli",
+    "preinstall": "npm install -g @angular/cli",
     "postinstall": "ng build && mv dist/* .",
     "build": "ng build",
     "test": "ng test",
