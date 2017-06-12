@@ -41,9 +41,9 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "http-server",
-    "preinstall": "npm install -g http-server",
-    "postinstall": "ng build && mv dist/* .",
+    "start": "node server.js",
+    "preinstall": "npm install --save-dev @angular/cli@latest",
+    "postinstall": "ng build --target=production -e ${NODE_ENV:-production} --aot",
     "build": "ng build",
     "test": "ng test",
     "lint": "tslint \"src/**/*.ts\"",
