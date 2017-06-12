@@ -32,6 +32,8 @@
     "e2e": "ng e2e"
   },
   "devDependencies": {
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/cli": "1.1.0",
     "@angular/language-service": "^4.0.0",
     "@types/jasmine": "2.5.45",
     "@types/node": "~6.0.60",
