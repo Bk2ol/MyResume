@@ -4,7 +4,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@angular/cli": "1.0.0-rc.2",
+    "@angular/cli": "1.1.0",
     "@angular/compiler-cli": "^4.0.0",
     "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",
@@ -21,18 +21,8 @@
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
   },
-  "scripts": {
-    "ng": "ng",
-    "start": "node server.js",
-    "preinstall": "npm install @angular/cli",
-    "postinstall": "ng build --target=production -e ${NODE_ENV:-production} --aot",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
-  },
   "devDependencies": {
-    "@angular/cli": "1.0.0-rc.2",
+    "@angular/cli": "1.1.0",
     "@angular/compiler-cli": "^4.0.0",
     "@angular/language-service": "^4.0.0",
     "@types/jasmine": "2.5.45",
@@ -50,6 +40,16 @@
     "ts-node": "~3.0.4",
     "tslint": "~5.3.2",
     "typescript": "~2.3.3"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "node server.js",
+    "preinstall": "npm install @angular/cli",
+    "postinstall": "ng build",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
   "engines": {
   "node": "8.0.0",
