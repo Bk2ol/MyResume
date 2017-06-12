@@ -41,13 +41,13 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
-    "preinstall": "npm install --save-dev @angular/cli@latest",
-    "postinstall": "ng build --target=production -e ${NODE_ENV:-production} --aot",
+    "start": "http-server",
+    "preinstall": "npm install -g http-server",
+    "postinstall": "ng build && mv dist/* .",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "lint": "tslint \"src/**/*.ts\"",
+    "e2e": "protractor"
   },
   "engines": {
   "node": "8.0.0",
