@@ -35,16 +35,14 @@
     "protractor": "~5.1.2",
     "ts-node": "~3.0.4",
     "tslint": "~5.3.2",
-    "typescript": "~2.3.3",
-    "tsconfig": "tsconfig.app.json",
-    "testTsconfig": "tsconfig.spec.json"
+    "typescript": "~2.3.3"
   },
   "devDependencies": {
   },
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "preinstall": "npm install -g @angular/cli && npm install -g @angular/compiler-cli",
+    "preinstall": "npm install --save-dev @angular/cli@latest",
     "postinstall": "ng build --target=production -e ${NODE_ENV:-production} --aot",
     "build": "ng build",
     "test": "ng test",
