@@ -16,6 +16,7 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'dist/index.html'));
 });
 
-app.listen(port, function(){
-    console.log("Server run");
-});
+// app.listen(port, function(){
+//     console.log("Server run");
+// });
+app.listen(process.env.PORT || 8080);
